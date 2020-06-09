@@ -1,0 +1,7 @@
+1). now once we detect our object we need to first create a filter so we are
+only taking objects that are bigger than a certain area and then we need to
+define a way in which we can save our images once we are getting our number
+plate. so the first thing we will do is add our filter.
+2). then we can extract our ROI(Region Of Interest) i.e our number plate. so,
+once we have our rectangle with x,y,width(w) and height(h) we can use this
+information to get our number plate image.
