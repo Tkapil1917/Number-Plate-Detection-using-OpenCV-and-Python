@@ -15,7 +15,7 @@ while True:
     for (x,y,w,h) in numPlates:
         area=w*h
         if area > minArea:#this loop will only work when our area > 500
-            cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)#creates the bounding box
+            cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,255),2)#creates the bounding box
             cv2.putText(img, "Number Plate",(x,y-5),
                         cv2.FONT_HERSHEY_COMPLEX_SMALL,
                         1,color,2)
